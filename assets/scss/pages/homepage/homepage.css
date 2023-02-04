@@ -1,0 +1,207 @@
+#navbarup {
+  background-color: #fafafa;
+}
+#navbarup .logoinfo {
+  display: flex;
+  height: 96px;
+}
+#navbarup .logoinfo img {
+  width: 152px;
+  height: 42px;
+  margin-top: 24px;
+  margin-left: 25px;
+}
+#navbarup .logoinfo ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  margin-left: -20px;
+}
+#navbarup .logoinfo ul li:nth-child(1) a {
+  color: #ec2127;
+}
+#navbarup .logoinfo ul li a {
+  text-decoration: none;
+  color: #53595c;
+  margin-left: 15px;
+  font-size: 0.875rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navbarup .logoinfo ul li a:hover {
+  color: rgb(168, 164, 164);
+}
+#navbarup .contactinfo {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  margin-left: 58px;
+}
+#navbarup .call {
+  margin-top: -6px;
+}
+#navbarup .call a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  font-weight: 700;
+}
+#navbarup .worktime {
+  width: 150px;
+  margin-left: 5px;
+  line-height: 14px;
+}
+#navbarup .worktime span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 10px;
+}
+#navbarup .worktime span:nth-child(1) {
+  color: #53595c;
+}
+#navbarup .worktime span:nth-child(2) {
+  font-weight: bold;
+  line-height: 1.45;
+}
+#navbarup .language {
+  margin-left: 33px;
+}
+#navbarup .language a {
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+#navbarup a:nth-child(1) {
+  color: black;
+  margin-right: 5px;
+}
+#navbarup a:nth-child(2) {
+  color: rgb(168, 164, 164);
+  border: 1px solid rgb(168, 164, 164);
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  padding-left: 5px;
+}
+
+#navbardown {
+  background-color: #3c3f42;
+}
+#navbardown .navleft {
+  width: 319px;
+  height: 64px;
+  margin-left: 22px;
+  color: #232222;
+}
+#navbardown .navleft .catalog {
+  height: 64px;
+  background-color: #232222;
+}
+#navbardown .navleft .catalog button {
+  font-size: 20px;
+  margin-top: 14px;
+  margin-left: 11px;
+  background-color: #232222;
+  border: none;
+}
+#navbardown .navleft .catalog button span {
+  color: white;
+  font-size: 17px;
+  margin-left: 15px;
+}
+#navbardown .navleft .catalog button i {
+  color: white;
+}
+#navbardown .navright {
+  display: flex;
+}
+#navbardown .navright .search {
+  width: 600px;
+  height: 64px;
+  margin-left: -8px;
+  background-color: #3c3f42;
+}
+#navbardown .navright .search input {
+  width: 550px;
+  height: 40px;
+  border: none;
+  margin-top: 12px;
+  margin-left: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#navbardown .navright .search button {
+  margin-top: 13px;
+  border: none;
+  height: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+}
+#navbardown .navright .search i {
+  background-color: white;
+}
+#navbardown .navright .signin {
+  height: 64px;
+  margin-left: 46px;
+}
+#navbardown .navright .signin ul {
+  display: flex;
+  list-style: none;
+}
+#navbardown .navright .signin ul span {
+  font-size: 15px;
+  color: white;
+  margin-top: 22px;
+  margin-left: 10px;
+}
+#navbardown .navright .signin ul li:nth-child(1) {
+  margin-top: 13px;
+}
+#navbardown .navright .signin ul li:nth-child(1) a {
+  font-size: 27px;
+}
+#navbardown .navright .signin ul li {
+  margin-top: 15px;
+}
+#navbardown .navright .signin ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 28px;
+  font-size: 19px;
+}
+
+#menufoto {
+  background-color: #ebeff2;
+}
+#menufoto .producttype {
+  height: 500px;
+  background-color: white;
+}
+#menufoto .producttype ul {
+  padding-top: 10px;
+  list-style: none;
+}
+#menufoto .producttype ul li:nth-child(1) a {
+  color: #ec2127;
+}
+#menufoto .producttype ul li span {
+  margin-left: 10px;
+  font-size: 15px;
+}
+#menufoto .producttype ul li a {
+  text-decoration: none;
+  color: #232222;
+}
+#menufoto .producttype ul li a:hover span {
+  color: #ec2127;
+}
+#menufoto .producttype ul li a:hover .right {
+  color: #ec2127;
+}
+#menufoto .producttype ul li:hover {
+  background-color: #f7f7f7;
+}
+#menufoto .producttype ul li .washmach {
+  display: inline-block;
+}/*# sourceMappingURL=homepage.css.map */
